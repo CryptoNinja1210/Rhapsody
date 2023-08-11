@@ -2,7 +2,7 @@ import React from "react";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
-import Avatar from "@mui/material/Avatar";
+// import Avatar from "@mui/material/Avatar";
 import MenuItem from '@mui/material/MenuItem';
 import IconButton from "@mui/material/IconButton";
 import Divider from '@mui/material/Divider';

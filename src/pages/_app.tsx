@@ -8,8 +8,8 @@ import "react-toastify/dist/ReactToastify.css";
 import "@/components/toast/toast-style.css";
 
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import AdapterDateFns from "@mui/lab/AdapterDateFns";
-import LocalizationProvider from '@mui/lab/LocalizationProvider'
+// import AdapterDateFns from "@mui/lab/AdapterDateFns";
+// import LocalizationProvider from '@mui/lab/LocalizationProvider'
 import { EmotionCache } from "@emotion/cache";
 import { appWithTranslation } from "next-i18next";
 import { initializeParse } from "@parse/react-ssr";
@@ -21,7 +21,7 @@ import { MUIGlobalStyles } from "@/config/theme/global";
 import { AuthProvider } from "@/contexts/auth";
 import { PrivateRoute } from "@/components/private-route";
 import { ROUTES } from "@/config/navigation";
-import frLocale from "date-fns/locale/fr";
+// import frLocale from "date-fns/locale/fr";
 import NextNProgress from "nextjs-progressbar";
 
 // Client-side cache, shared for the whole session of the user in the browser.

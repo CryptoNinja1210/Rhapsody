@@ -135,10 +135,10 @@ export const SignUpForm = () => {
               key={input?.label}
               value={input?.props?.value}
               label={input?.label}
-              onChange={(newValue) => {
+              onChange={(newValue: any) => {
                 input?.props?.onChange(newValue);
               }}
-              renderInput={(params) => {
+              renderInput={(params: any) => {
                 return (
                   <AppTextField
                     error={input.meta.submitFailed && input.meta.error}
