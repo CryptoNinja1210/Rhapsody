@@ -50,7 +50,6 @@ const MyApp = (props: MyAppProps) => {
               {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
               <CssBaseline />
               <MUIGlobalStyles />
-              <Component {...pageProps} />
               <AuthProvider>
                 <NextNProgress />
                 <PrivateRoute protectedRoutes={[ROUTES.account, ROUTES.checkout, ROUTES.projectRegister]}>
